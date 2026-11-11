@@ -76,7 +76,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 5 × 3
+  time_bucket       mean_error n_snapshots
+  &lt;ord&gt;                  &lt;dbl&gt;       &lt;int&gt;
+1 More than 90 days     0.399         5239
+2 30-90 days            0.311        15588
+3 7-30 days             0.279        16467
+4 1-7 days              0.180         5600
+5 Final day             0.0896         800</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="analysis_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="analysis_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 10 × 4
+   probability_bin predicted_probability actual_rate     n
+   &lt;fct&gt;                           &lt;dbl&gt;       &lt;dbl&gt; &lt;int&gt;
+ 1 [0,0.1]                        0.0219     0.00939   426
+ 2 (0.1,0.2]                      0.147      0.0714     28
+ 3 (0.2,0.3]                      0.247      0.25       20
+ 4 (0.3,0.4]                      0.349      0.0556     18
+ 5 (0.4,0.5]                      0.450      0.55       20
+ 6 (0.5,0.6]                      0.544      0.65       20
+ 7 (0.6,0.7]                      0.643      0.611      18
+ 8 (0.7,0.8]                      0.748      0.818      11
+ 9 (0.8,0.9]                      0.855      1          18
+10 (0.9,1]                        0.982      0.995     221</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="analysis_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 
 </main>
 <!-- /main column -->
